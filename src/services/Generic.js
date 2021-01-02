@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.baseURL="https://dashboard.heroku.com/apps/sp18-bse-088-nodelab/api/";
+axios.defaults.baseURL="https://sp18-bse-088-nodelab.herokuapp.com/api/";
 axios.defaults.headers.common["x-auth-token"]=localStorage.getItem("token");
 class Generic{
     constructor(){}
